@@ -1,29 +1,21 @@
-# README #
+# Getting Started with Create React App and learn
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### What is this repository for? ###
+## Available Scripts
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## How to run front end 
+-Checkout server branch
 
-### How do I get set up? ###
+-move inside app folder and run below command 
+### `npm start`
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+## How to run server  
 
-### Who do I talk to? ###
+-Checkout server branch
 
-* Repo owner or admin
-* Other community or team contact
+-move inside server folder and run below command 
+### `npm start`
