@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match header snapshot 1`] = `
+<div
+  className="ui fixed menu"
+>
+  <div
+    className="ui container center"
+    data-testid="menu"
+  >
+    <h2>
+      Contact Manager
+    </h2>
+  </div>
+</div>
+`;

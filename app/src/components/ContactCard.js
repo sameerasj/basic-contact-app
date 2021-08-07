@@ -12,7 +12,7 @@ const ContactCard = (props) => {
           to={{ pathname: `/contact/${id}`, state: { contact: props.contact } }}
         >
           <div className="header">{name}</div>
-          <div>{email}</div>
+          <div className="description">{email}</div>
         </Link>
       </div>
       <i

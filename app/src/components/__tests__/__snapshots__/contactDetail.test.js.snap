@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match contactdetail snapshot 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="ui card centered"
+  >
+    <div
+      className="image"
+    >
+      <img
+        alt="user"
+        src="user.jpg"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        Test User
+      </div>
+      <div
+        className="description"
+      >
+        testuser@mail.com
+      </div>
+    </div>
+  </div>
+  <div
+    className="center-div"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <button
+        className="ui button blue center"
+      >
+        Back to Contact List
+      </button>
+    </a>
+  </div>
+</div>
+`;
