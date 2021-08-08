@@ -24,7 +24,7 @@
     "test:api": "react-scripts test ./src/endpoints --setupFiles ./src/setupTests.js --watchAll=false",
     "test:e2e": "npx wdio run wdio.conf.js && npm run allure-generate",
     "eject": "react-scripts eject",
-    "coverage": "npm test -- --coverage --watchAll=false --setupFiles ./src/setupTests.js --collectCoverageFrom=!src/endpoints/* --collectCoverageFrom=!src/components/__tests__/__snapshots__/*",
+    "coverage": "npm run test:frontend -- --coverage --watchAll=false --setupFiles ./src/setupTests.js --collectCoverageFrom=!src/endpoints/**/* --collectCoverageFrom=!src/components/__tests__/__snapshots__/*",
     "allure-generate": "allure generate --clean && allure open"
   },
   "eslintConfig": {

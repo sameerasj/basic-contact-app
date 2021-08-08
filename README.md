@@ -28,6 +28,10 @@ Both of these tests will run together. Can run all unit tests + snapshot tests w
 
 `npm run test:frontend`
 
+Test coverage can be retrieved with the command below
+
+`npm run coverage`
+
 ### Running API tests
 Can run all api tests in the application with command below inside `/app` folder
 
