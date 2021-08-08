@@ -29,12 +29,12 @@ const ContactList = (props) =>{
             <h2>
               Contact List
               <Link to="/add">
-                <button className="ui button blue right"> Add Contact</button>
+                <button data-testid="add-contact-btn" className="ui button blue right"> Add Contact</button>
               </Link>
             </h2>
             <div className="ui search">
                 <div className="ui icon input"> 
-                    <input ref={inputE1}type="text" placeholder="Search Contacts" className="prompt" value={props.term} onChange={getSearchTerm}/>
+                    <input ref={inputE1}type="text" data-testid="search-input" placeholder="Search Contacts" className="prompt" value={props.term} onChange={getSearchTerm}/>
                     </div>
                     <i className= "search icon" ></i>
             </div>
