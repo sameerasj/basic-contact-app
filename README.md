@@ -37,7 +37,7 @@ Can run all api tests in the application with command below inside `/app` folder
 
 `npm run test:api`
 
-### Running API tests
+### Running End to End tests
 All end to end tests in the application are implemented with WebdriverIO can be executed with command below inside `/app` folder
 
 `npm run test:e2e`
