@@ -18,9 +18,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --setupFiles ./src/setupTests.js",
+    "test": "react-scripts test --setupFiles ./src/setupTests.js --watchAll=false",
+    "test:frontend": "react-scripts test --testPathIgnorePatterns=./src/endpoints/* --setupFiles ./src/setupTests.js --watchAll=false",
+    "test:api": "react-scripts test ./src/endpoints --setupFiles ./src/setupTests.js --watchAll=false",
     "eject": "react-scripts eject",
-    "coverage": "npm test -- --coverage --watchAll=false --setupFiles ./src/setupTests.js"
+    "coverage": "npm test -- --coverage --watchAll=false --setupFiles ./src/setupTests.js --collectCoverageFrom=!src/endpoints/* --collectCoverageFrom=!src/components/__tests__/__snapshots__/*" 
   },
   "eslintConfig": {
     "extends": [
